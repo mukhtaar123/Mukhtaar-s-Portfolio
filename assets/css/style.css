@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #574B90;
+    --secondary-color: #F1F0F5;
+    --tertiary-color: #A37FBD;
+}
+* {
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: var(--secondary-color);
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.topbar {
+    padding: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+}
+.topbar h1 {
+    color: var(--secondary-color);
+    margin: 5px 10px 5px 30px;
+    font-size: 50px;
+}
+.topbar nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+.topbar nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+.topbar nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+p {
+    font-size: 24px;
+    padding: 5px 35px 0 20px;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-holder {
+    position: relative;
+    margin: 12px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+.section-info {
+    margin: 20px auto;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+}
+.section-heading {
+    font-size: 48px;
+    display: inline-block;
+    border-right: 5px solid;
+    margin-right: 35px;
+    color: var(--primary-color);
+    text-align: right;
+    padding: 30px;
+    flex-basis: 25%;
+}
+.primary-edge {
+    border-color: var(--primary-color);
+}
+.projects-collection {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 66%;
+}
+
+
+.project-item {
+    border: 1px solid var(--primary-color);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+}
+
+.project-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    color: #000;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
