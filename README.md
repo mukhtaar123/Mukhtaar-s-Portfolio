@@ -16,7 +16,13 @@ When I resize the page or view the site on various screens and devices I am pres
 
 ## The URL of the deployed application.:
 
-
+https://mukhtaar123.github.io/Mukhtaar-s-Portfolio/
 
 
 ## The URL of the GitHub repository that contains my code:
+
+https://github.com/mukhtaar123/Mukhtaar-s-Portfolio.git
+
+
+## Screenshot
+![This webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/img/portfolio_imh.png)
